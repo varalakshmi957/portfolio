@@ -1,0 +1,116 @@
+.text-purpel{
+    color: #76FEFC !important;
+  }
+  
+  .text-purpel:hover{
+    color: rgb(170, 107, 228) !important;
+  }
+  
+  .theme-bg{
+    background-color: #10F5E0;
+  }
+  
+  .btn-bli {
+    background-color:#10F5E0;
+    color:#000;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+  
+  .btn-bli:hover {
+    background-color:#000;
+    color:#fff
+  }
+  
+  .education-box li{
+    position: relative;
+    list-style: none;
+    padding-left: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .education-box li label{
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: -30px;
+  }
+  
+  .education-box li label:after {
+    width: 10px;
+    height: 1px;
+    content: "_";
+    font-weight: 700;
+    font-size: 35px;
+    right: -40px;
+    top: -28px;
+    position: absolute;
+  }
+  
+  .progress-lt {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .progress-lt span {
+    position: absolute;
+    top: 0;
+    right: 1.5%;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  .progress-lt .progress {
+    margin-bottom: 0;
+    height: 10px;
+    border-radius: 5px;
+  }
+  
+  .img-height{
+    max-height: 250px;
+  }
+  
+  .contact-info {
+    padding: 25px;
+    margin-right: 0px;
+    border: 1px solid #e7e5f7;
+    height: 100%;
+    background-color: #fff;
+  }
+  
+  .ci-row {
+    margin-bottom: 25px;
+    position: relative;
+    padding-left: 40px;
+  }
+  
+  
+  .ci-row i {
+   width: 35px;
+   height: 35px;
+   text-align: center;
+   line-height: 35px;
+   border-radius: 50%;
+   left: -10px;
+   top: 0;
+   position: absolute;
+   color: #fff;
+  }
+  
+  .ci-row label {
+    font-size: 14px;
+    color: #666;
+    letter-spacing: 0.5px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 5px;
+  }
+  
+  .contact-form {
+    padding: 25px;
+    border: 1px solid #e7e5f7;
+    background-color: #fff;
+  }
+  
